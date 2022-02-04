@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
 
+.q1_box {
+  float: left;
+  margin-left: 30px;
+  padding: 20px;
+  width: 300px;
+  background-color: #3274ae;
+  box-sizing: border-box;
+}
+
+.q1_box:first-child {
+  margin: 0;
+}
+
+.q1_text {
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  border: 10px solid #022336;
+  background-color: #eaf4ff;
+}
 /* q1が終わったら
 q2のcssはq2フォルダの中のcssファイルに記述してください */
