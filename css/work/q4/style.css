@@ -39,6 +39,7 @@
 
 .q4_3left {
   position: relative;
+  text-align: center;
 }
 
 .q4_3text {
@@ -52,6 +53,7 @@
 
 .q4_3right {
   position: relative;
+  text-align: center;
 }
 
 .q4_3righttext {

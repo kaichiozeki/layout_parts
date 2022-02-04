@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.wrapper {
+table {
   margin: 0 auto;
   table-layout: fixed;
   width: 100%;
@@ -38,7 +38,6 @@ table td {
 }
 
 table td:first-child {
-  font-size: 18px;
   background-color: #2244aa;
   color: #fff;
 }
