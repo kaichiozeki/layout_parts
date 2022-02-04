@@ -37,7 +37,7 @@
   text-align: center;
 }
 
-.q4_3left {
+.q4_3 {
   position: relative;
   text-align: center;
 }
@@ -51,10 +51,7 @@
   margin: auto;
 }
 
-.q4_3right {
-  position: relative;
-  text-align: center;
-}
+
 
 .q4_3righttext {
   position: absolute;

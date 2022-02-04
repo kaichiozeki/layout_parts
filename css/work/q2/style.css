@@ -6,37 +6,46 @@ table {
   width: 100%;
 }
 
-table th {
+thead th {
   background-color: #2244aa;
   font-size: 18px;
   color: #fff;
-  line-height: 22px;
+  line-height: 26px;
   border: solid 1px #dedede;
   padding: 10px;
 }
 
-table tr {
+tbody th {
+  background-color: #2244aa;
+  font-size: 18px;
+  color: #fff;
+  line-height: 26px;
+  border: solid 1px #dedede;
+  padding: 10px;
+}
+
+tbody tr {
   background-color: #ecf1f2;
   text-align:center
 }
 
-table tr:first-child {
+tbody tr:first-child {
   font-size: 18px;
   line-height: 26px;
 }
 
-table tr:nth-child(odd){
+tbody tr:nth-child(odd){
   background-color: #fff;
 }
 
-table td {
+tbody td {
   font-size: 16px;
   padding: 10px;
   line-height: 22px;
   border: solid 1px #dedede;
 }
 
-table td:first-child {
+tbody td:first-child {
   background-color: #2244aa;
 }
 
