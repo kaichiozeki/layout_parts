@@ -28,11 +28,14 @@
 
 - htmlに不要なインデントがあります
 
-　<h2 class="layout_main_section_title">2.テーブル</h2>のインデントを消しました。
+　不要なインデント削除しました。
 
 - 背景色が青のセルは縦も横も見出しの役割になっているので、thタグを使用しましょう！
 
   thのタグを使用し、cssのtable td:first-childのfont-sizeは18pxを削除しました。
+
+- 一部文字が白になってしまった。
+  table td:first-child、table tr:first-child のcolorを削除しました。
 
 ## 3
 - 背景色や文字の太さなどが見本と異なるので見直してみましょう！

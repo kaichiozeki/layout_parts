@@ -23,7 +23,6 @@ table tr {
 table tr:first-child {
   font-size: 18px;
   line-height: 26px;
-  color: #fff;
 }
 
 table tr:nth-child(even){
@@ -39,7 +38,6 @@ table td {
 
 table td:first-child {
   background-color: #2244aa;
-  color: #fff;
 }
 
 table tr:last-child {
