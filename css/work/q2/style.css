@@ -1,12 +1,11 @@
 @charset "UTF-8";
-
-table {
+.q2_table {
   margin: 0 auto;
   table-layout: fixed;
   width: 100%;
 }
 
-thead th {
+.q2_table th {
   background-color: #2244aa;
   font-size: 18px;
   color: #fff;
@@ -15,7 +14,7 @@ thead th {
   padding: 10px;
 }
 
-tbody th {
+.q2_table tbody th {
   background-color: #2244aa;
   font-size: 18px;
   color: #fff;
@@ -24,32 +23,32 @@ tbody th {
   padding: 10px;
 }
 
-tbody tr {
+.q2_table tbody tr {
   background-color: #ecf1f2;
   text-align:center
 }
 
-tbody tr:first-child {
+.q2_table tbody tr:first-child {
   font-size: 18px;
   line-height: 26px;
 }
 
-tbody tr:nth-child(odd){
+.q2_table tbody tr:nth-child(odd){
   background-color: #fff;
 }
 
-tbody td {
+.q2_table tbody td {
   font-size: 16px;
   padding: 10px;
   line-height: 22px;
   border: solid 1px #dedede;
 }
 
-tbody td:first-child {
+.q2_table tbody td:first-child {
   background-color: #2244aa;
 }
 
-tbody tr:last-child {
+.q2_table tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 /* q2が終わったら
