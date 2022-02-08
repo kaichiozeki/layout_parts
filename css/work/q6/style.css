@@ -1,5 +1,91 @@
 @charset "UTF-8";
 
 
+.q6_img_box {
+  display: flex;
+  justify-content: center;
+
+}
+.q6_over {
+  position: relative;
+  overflow: hidden;
+}
+
+.q6_1left {
+  width: 300px;
+}
+
+.q6_1left:hover {
+  transform:scale(1.2);
+  transition: all 0.5s ;
+}
+
+.q6_hover {
+  position: relative;
+}
+
+.q6_hover{
+  width: 300px;
+  position: relative;
+  margin-left: 50px;
+}
+
+.q6_1right {
+  width: 100%;
+  margin: 0;
+}
+
+.q6_text{
+  display: flex;
+  color: #fff;
+  position: absolute;
+  width: 260px;
+  height: 163px;
+  margin: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.8));
+  opacity: 0;
+  transform: translateY(10%);
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.q6_text:hover {
+  transition: all 0.5s ;
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+
+.news-banner {
+  overflow: hidden;
+  position: relative;
+}
+
+.news-banner_content {
+  height: 540px;
+  padding: 80px;
+  font-size: 0;
+  box-sizing: border-box;
+}
+
+.news-banner_content p {
+  animation: animate-banner 10s linear infinite;
+  height: 100%;
+  font-size: 200px;
+  display: inline-block;
+}
+
+@keyframes animate-banner {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-130%);
+  }
+}
+
+
+
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */

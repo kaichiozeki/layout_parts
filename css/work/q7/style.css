@@ -1,1 +1,46 @@
 @charset "UTF-8";
+
+.q7_flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.q7_icon {
+margin-bottom: 35px;
+}
+.balloon2-left {
+  position: relative;
+  display: inline-block;
+  margin:  35px;
+  padding: 20px;
+  width: 550px;
+  font-size: 16px;
+  border: solid 5px #222;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.balloon2-left:before {
+  content: "";
+  position: absolute;
+  top: 75%;
+  left: -43px;
+  margin-top: -30px;
+  border: solid 25px transparent;
+  border-right: 25px solid #fff;
+
+  z-index: 2;
+}
+
+.balloon2-left:after {
+  content: "";
+  position: absolute;
+  top: 75%;
+  left: -50px;
+  margin-top: -30px;
+  border: 25px solid transparent;
+  border-right: 25px solid #222;
+
+  z-index: 1;
+}
+
