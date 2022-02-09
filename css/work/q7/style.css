@@ -11,7 +11,7 @@ margin-bottom: 35px;
 .balloon2-left {
   position: relative;
   display: inline-block;
-  margin:  35px;
+  margin: 35px;
   padding: 20px;
   width: 550px;
   font-size: 16px;
@@ -20,27 +20,22 @@ margin-bottom: 35px;
   border-radius: 30px;
 }
 
-.balloon2-left:before {
+.balloon2-left:before, .balloon2-left:after {
   content: "";
   position: absolute;
   top: 75%;
-  left: -43px;
-  margin-top: -30px;
   border: solid 25px transparent;
-  border-right: 25px solid #fff;
+  margin-top: -30px;
+  border-right: 25px solid;
+}
 
-  z-index: 2;
+.balloon2-left:before {
+  left: -50px;
+  border-right-color: #222;
 }
 
 .balloon2-left:after {
-  content: "";
-  position: absolute;
-  top: 75%;
-  left: -50px;
-  margin-top: -30px;
-  border: 25px solid transparent;
-  border-right: 25px solid #222;
-
-  z-index: 1;
+  left: -43px;
+  border-right-color: #fff;
 }
 
